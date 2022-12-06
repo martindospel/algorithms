@@ -18,3 +18,14 @@ console.log(climbStairs(6)); //13
 console.log(climbStairs(7)); //21
 console.log(climbStairs(21)); //17711
 console.log(climbStairs(50)); //20365011074
+
+//another solution with less code
+// const climbStairs = n => {
+//     let a = 0,
+//       b = 1;
+//     while (n-- > 0) {
+//       b = a + b;
+//       a = b - a;
+//     }
+//     return b;
+//   };
