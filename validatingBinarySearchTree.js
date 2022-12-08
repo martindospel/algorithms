@@ -1,3 +1,5 @@
+//Runtime 86 ms, Beats 80.90%, Memory 46 MB, Beats 81.74%
+
 const isValidBST = (root) => {
   const valid = (root, left, right) => {
     if (root === null) return true;
